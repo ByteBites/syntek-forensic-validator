@@ -1,0 +1,15 @@
+version: '3'
+services:
+  syntek:
+    build:
+      context: .
+    working_dir: /home/syntek
+    container_name: syntek
+    restart: always
+    ports:
+      - "9090:9090"
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
+      - 1.1.1.1
+      - 1.0.0.1
