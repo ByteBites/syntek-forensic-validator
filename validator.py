@@ -17,7 +17,7 @@ else:
 
 print('Ada terdapat 2 file record pasien pada komputer korban.')
 print('Kapan waktu terakhir kali kedua file tersebut diakses DAN apa nama kedua file tersebut?') 
-print('---------->> (Clue : "Source Accessed")')
+print('---------->> (Clue : "Target Accessed")')
 print('(Answer Format : FirstFileName.pdf_mm/dd/yyyy-hour:minute:sec_SecondFileName.pdf_mm/dd/yyyy-hour:minute:sec)')
 user2 = input(">> Jawaban nomor 2 : ")
 if user2 == "SynTek - Patient Health Records - History Year 2016.pdf_07/30/2022-14:29:51_SynTek - Patient Health Records - Medical Severity Diagnosis.pdf_07/30/2022-14:29:58":
