@@ -20,7 +20,7 @@ print('Kapan waktu terakhir kali kedua file tersebut diakses DAN apa nama kedua 
 print('---------->> (Clue : "Source Accessed")')
 print('(Answer Format : FirstFileName.pdf_mm/dd/yyyy-hour:minute:sec_SecondFileName.pdf_mm/dd/yyyy-hour:minute:sec)')
 user2 = input(">> Jawaban nomor 2 : ")
-if user2 == "SynTek - Patient Health Records - History Year 2016.pdf_08/26/2022-01:44:05_SynTek - Patient Health Records - Medical Severity Diagnosis.pdf_08/26/2022-02:00:28":
+if user2 == "SynTek - Patient Health Records - History Year 2016.pdf_07/30/2022-14:29:51_SynTek - Patient Health Records - Medical Severity Diagnosis.pdf_07/30/2022-14:29:58":
     print('[+] Nice Benar\n')
     flag2 = True
 else:
